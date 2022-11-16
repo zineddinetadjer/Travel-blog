@@ -63,6 +63,9 @@ body {
   height: 5rem;
   cursor: pointer;
 }
+.countries ul li:hover {
+  background-color: rgba(78, 21, 21, 0.61);
+}
 .countries div {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -80,11 +83,18 @@ body {
   height: 10rem;
 }
 .plan {
+  background-color: white;
+  border-radius: 15px;
   display: flex;
   justify-content: space-around;
   gap: 1em;
   align-items: center;
   height: 100%;
+  transition: all 1250ms;
+  cursor: pointer;
+}
+.plan:hover {
+  transform: scale(1.1);
 }
 .pics {
   width: 5rem;
